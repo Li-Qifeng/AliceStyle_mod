@@ -29,6 +29,24 @@ class PluginsFooter{
 		
         echo '<script type="text/javascript" src="' . $PluginPath . 'js/bg/' . $type . '"></script>';
 	}
+
+	static function StaticBackground(){
+		// 插件所在位置的路径信息
+		$PluginPath = Helper::options()->pluginUrl.'/AliceStyle/static/';
+	
+		// // 获取 云加速 配置信息
+		// $SpeedUp = Typecho_Widget::widget('Widget_Options')->plugin('AliceStyle')->SpeedUp;
+		
+		// if(!empty($SpeedUp)){
+		// 	$PluginPath = $SpeedUp;
+		// }
+		$image = 'logo-bg.jpg';
+
+		// 获取配置信息
+		// $image = Typecho_Widget::widget('Widget_Options')->plugin('AliceStyle')->StaticBackground;
+		
+		echo '<style>#login-bg { background-image: url("' . $PluginPath . 'img/' . $image . '"); }</style>';
+	}
 	
 	// 返回顶部
 	static function ReturnTop(){
