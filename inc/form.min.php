@@ -165,6 +165,7 @@ class PluginsForm{
             'dew' => "<img src='{$dir}/dew/normal.cur'><img src='{$dir}/dew/link.cur'>",
             'blademaster' => "<img src='{$dir}/blademaster/normal.cur'><img src='{$dir}/blademaster/link.cur'>",
             'fireworks' => "<img src='{$dir}/fireworks/shownormal.cur'><img src='{$dir}/fireworks/link.cur'>",
+			'win11cursor' => "<img src='{$dir}/win11cursor/normal.cur'><img src='{$dir}//win11cursor/link.cur'>",
         ];
 
         $result = new Typecho_Widget_Helper_Form_Element_Radio('MouseStyle', $list, 'dew', _t('鼠标样式'),  _t('鼠标样式文件可修改，替换/AliceStyle/static/img/cur/目录下对应的文件即可'));

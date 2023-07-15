@@ -22,7 +22,7 @@ include 'inc/tool.php';
 include 'inc/ico.php';
 
 /**
- * <strong style="color:#7682fa;font-family: 楷体;">萌卜兔's 美化插件</strong>
+ * <strong style="color:#7682fa;font-family: 楷体;">萌卜兔's 美化插件_mod</strong>
  *
  * @package AliceStyle
  * @author <strong style="color:#7682fa;font-family: -webkit-pictograph;">racns</strong>
