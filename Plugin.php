@@ -3,8 +3,9 @@ if (!defined('__TYPECHO_ROOT_DIR__')) {
     exit;
 }
 // 定义版本号
-defined($Cver,'20201015');
+# defined($Cver,'20201015');
 # defined('CVER','20201015');
+defined('Cver') && Cver === '20201015';
 
 // 插件设置模块
 include 'inc/form.min.php';
