@@ -205,8 +205,8 @@ class AliceStyle_Plugin implements Typecho_Plugin_Interface{
         // 动态背景
         PluginsFooter::DynamicBackground();
 
-        // 静态背景
-        PluginsFooter::StaticBackground();
+        // // 静态背景
+        // PluginsFooter::StaticBackground();
         
         // 主题美化
         PluginsFooter::PrettifyStyle();
