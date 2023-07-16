@@ -595,7 +595,7 @@ CSS;
 			echo '<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css"/>'; 
 			
 			// Title Ico图标
-			echo '<link rel="shortcut icon" type="image/x-icon" href=" '. $PluginPath .'img/favicon.ico" />';
+			// echo '<link rel="shortcut icon" type="image/x-icon" href=" '. $PluginPath .'img/favicon.ico" />';
 		}
 	}
 	
